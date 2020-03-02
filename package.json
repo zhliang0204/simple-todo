@@ -1,5 +1,5 @@
 {
-  "name": "to do list",
+  "name": "todo",
   "version": "0.0.1",
   "description": "a full stack app of todo list",
   "main": "index.js",

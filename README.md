@@ -1,6 +1,9 @@
 # ToDo List
 
 It is a small full stack todo application.
+Front-end: react
+Back-end: nodeJs
+Database: sqlite, store in memeory
 
 ### main foler structure
 
@@ -38,10 +41,11 @@ It is a small full stack todo application.
 3. run client
    ```sh
            $ cd client
-   		$ npm run start
+   		  $ npm run start
    ```
 
 ### reference
 
 client: https://github.com/facebook/create-react-app
+
 server: https://github.com/aichbauer/express-rest-api-boilerplate
