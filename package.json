@@ -1,0 +1,11 @@
+{
+  "name": "to do list",
+  "version": "0.0.1",
+  "description": "a full stack app of todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liang zhang",
+  "license": "ISC"
+}

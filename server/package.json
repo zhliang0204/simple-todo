@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "server side of todo list",
+  "main": "app.js",
+  "scripts": {
+    "start": "set -o allexport && . ./.env.development.local && node ./app.js",
+    "test": "set -o allexport && . ./.env.development.local && jest"
+  },
+  "author": "liang zhang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-js": "^2.6.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-routes-mapper": "^1.1.0",
+    "helmet": "^3.21.3",
+    "sequelize": "^5.21.5",
+    "sqlite": "^3.0.3",
+    "sqlite3": "^4.1.1",
+    "uuid": "^7.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
